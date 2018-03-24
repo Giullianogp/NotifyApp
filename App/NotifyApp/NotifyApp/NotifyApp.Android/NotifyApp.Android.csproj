@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EA3DF813-39FA-4349-9B26-B39F6D75CCD7}</ProjectGuid>
+    <ProjectGuid>{6E723F16-E52F-4BBD-9E46-0D99FB56623A}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>NotifyApp.Droid</RootNamespace>
@@ -82,7 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NotifyApp\NotifyApp.csproj">
-      <Project>{4E318418-53F3-4154-8B2D-3F39C7FCDB59}</Project>
+      <Project>{F663D078-4FBF-4ED7-AE64-99525738EB40}</Project>
       <Name>NotifyApp</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NotifyApp.Views.LoginPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="BorderRadius" Value="7"/>
+                <Setter Property="Margin" Value="15,0,15,0"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource Accent}"/>
+                <Setter Property="TextColor" Value="{StaticResource LightTextColor}"/>
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="Margin" Value="15,0,15,0"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+            <Entry Placeholder="Usuário"/>
+            <Entry Placeholder="Senha"/>
+            <Button Text="Entrar" />
+            <Button Text="Criar Conta" BackgroundColor="White" TextColor="{StaticResource Accent}"/>
+            <Button Text="Esqueci minha senha" BorderWidth="0" BackgroundColor="Transparent" TextColor="{StaticResource Accent}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
