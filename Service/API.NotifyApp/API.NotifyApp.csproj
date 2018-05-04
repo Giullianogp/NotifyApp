@@ -25,6 +25,13 @@
     <None Remove="Controllers\api\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="API.NotifyApp\bin\Debug\netcoreapp2.0\" />
+    <Folder Include="API.NotifyApp\Controllers\" />
+    <Folder Include="API.NotifyApp\Properties\" />
+    <Folder Include="API.NotifyApp\wwwroot\" />
+  </ItemGroup>
+
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">
